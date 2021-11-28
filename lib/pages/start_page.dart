@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:perfect_timetracker/sign_in_page.dart';
-import 'package:perfect_timetracker/sign_up_page.dart';
+import 'package:perfect_timetracker/pages/sign_in_page.dart';
+import 'package:perfect_timetracker/pages/sign_up_page.dart';
 import 'package:perfect_timetracker/widgets.dart';
 
 class StartPage extends StatefulWidget {
