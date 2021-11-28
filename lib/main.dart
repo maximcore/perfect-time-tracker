@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:perfect_timetracker/theme.dart';
-import 'start_page.dart';
+import 'pages/start_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Perfect Time Tracker',
       theme: myTheme(),
       home: const StartPage(),
       debugShowCheckedModeBanner: false,
